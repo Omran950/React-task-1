@@ -1,0 +1,11 @@
+#home {
+  background-color: var(--bg-main-color);
+  color: var(--text-color);
+}
+
+#home .star .line-one,
+#home .star .line-two {
+  height: 4px;
+  width: 80px;
+  background-color: var(--text-color);
+}

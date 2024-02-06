@@ -1,0 +1,33 @@
+#contact {
+  color: var(--bg-color);
+}
+
+#contact .star .line-one,
+#contact .star .line-two {
+  background-color: var(--bg-color);
+}
+
+#contact .container .form .btn {
+  background-color: var(--bg-main-color);
+  color: var(--text-color);
+}
+
+#contact .container .form .form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#contact .container .form .form-control:focus {
+  box-shadow: none;
+}
+
+#contact .container .form-floating > .form-control-plaintext ~ label,
+#contact .container .form-floating > .form-control:focus ~ label,
+#contact
+  .container
+  .form-floating
+  > .form-control:not(:placeholder-shown)
+  ~ label,
+#contact .container .form-floating > .form-select ~ label {
+  color: var(--bg-main-color);
+}

@@ -1,0 +1,22 @@
+#footer {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+#footer .container .row ul li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .copy-right {
+  background-color: var(--sec-bg-color);
+}

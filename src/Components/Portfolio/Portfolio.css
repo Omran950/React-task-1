@@ -1,0 +1,27 @@
+#portfolio {
+  color: var(--bg-color);
+}
+
+#portfolio .star .line-one,
+#portfolio .star .line-two {
+  background-color: var(--bg-color);
+}
+
+#portfolio .container .row figure {
+  cursor: pointer;
+}
+
+#portfolio .container .row figure .layer {
+  background-color: #32ab93;
+  opacity: 0;
+  transition: 500ms;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+}
+
+#portfolio .container .row figure .layer:hover {
+  opacity: 1;
+  background-color: #1abc9ce6;
+}

@@ -1,0 +1,24 @@
+#navBar {
+  background-color: var(--bg-color);
+  transition: 500ms;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+}
+#navBar .navbar-nav .nav-link {
+  color: var(--text-color);
+}
+
+#navBar .navbar-brand {
+  color: var(--text-color);
+}
+
+#navBar .navbar-nav .nav-link.active {
+  background-color: var(--bg-main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
